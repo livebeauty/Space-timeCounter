@@ -1,0 +1,24 @@
+@media(max-width:500px){
+    .content{
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        transform: translateY(-50%,-50%);
+        color: #fff;
+    }
+    .content p{
+        font-size: 4vw;
+    } 
+
+    .content h1{
+        font-size: 7vw;
+    }
+
+    #days,#hours,#minutes,#seconds{
+        font-size: 10vw;
+    }
+
+    button{
+        margin-top: 6vw;
+    }
+}
